@@ -1,8 +1,8 @@
 
-### Project Proposal:
-#### *Simulation of fluid flow through porous media using netgen/poreflow porenetwork modeling package*
+#### Project Proposal:
+### *Simulation of fluid flow through porous media using netgen/poreflow porenetwork modeling package*
 ***
-**Name**: Misagh esmaeilpour<br/>
+**Name**: Misagh Esmaeilpour<br/>
 **Semester**: Spring 2020 <br/>
 **Project area**: Flow and Transport in Porous Media
 
