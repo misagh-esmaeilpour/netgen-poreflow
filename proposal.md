@@ -23,7 +23,7 @@ By rewriting my matlab code in python I am aiming to achieve these two goals:
 
 1. not making my Matlab busy for several days
 
-2. Accelerating the computations by using python instead of Matlab (currently a 10 iterations simulation in matlab takes about 20 minutes, and I am hoping to reduce this time)
+2. Accelerating the computations by using python instead of Matlab (currently a 10 iterations simulation in Matlab takes about 118 minutes, and I am hoping to reduce this time)
 ---
 
 **Outcome:**
@@ -31,10 +31,10 @@ By rewriting my matlab code in python I am aiming to achieve these two goals:
 Three separate plots showing the trend of changing in the values of permeability, porosity and formation factor while network size is increasing.
 
 <p>
-    <img src="Presentation1.png" alt="Fig.1" width="900"/>
+    <img src="figure1.png" alt="Fig.1" width="400"/>
 </p>
 <p>
-    <em>Fig.1: A sample figure showing permeability values(k) vs network sizes. </em>
+    <em>Fig.1: A sample figure showing permeability values (k) vs network sizes. </em>
 </p>
 
 ---
@@ -55,7 +55,6 @@ In the following picture (Fig.1) various stages of this project is depicted:
 
 1. Valvatne, P. H. (2004). Predictive pore-scale modelling of multiphase flow (Doctoral dissertation, Department of Earth Science and Engineering, Imperial College London).
 2. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
 
 
 
