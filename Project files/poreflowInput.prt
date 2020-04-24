@@ -1,0 +1,109 @@
+NETWORK
+  F distrib  
+
+SAT_TARGET
+  0.00 1.0E21 0.2 500000.0 T F  1.00 -1.0E21 0.2 500000.0 T F  
+
+EQUIL_CON_ANG
+  1 50.0 60.0 -1.0 -1.0 rand 25.2  
+
+
+=====================================================
+Warning. Large errors were detected when solving for
+single phase conditions.
+Flow Error: 18.3798
+Resistivity Error: 14.5761
+=====================================================
+
+
+
+Number of pores:                           42875
+Number of throats:                         129850
+Average connection number:                 6
+Number of connections to inlet:            1225
+Number of connections to outlet:           1225
+Number of physically isolated elements:    0
+Number of singlets removed:                0
+Number of triangular shaped elements:      10
+Number of square shaped elements:          0
+Number of circular shaped elements:        172717
+Median throat length to radius ratio:      16.2047
+Net porosity:                              0.033983
+Clay bound porosity:                       0
+Absolute permeability (mD)                 9665.74
+Absolute permeability (m2)                 9.53934e-012
+Formation factor:                          0.984221
+
+
+Sw =   1.00 ->  0.800;   8 steps; 35106 fillings; Pc = 7.460e+003; krw = 2.573e-003; kro = 4.395e-005
+Sw =  0.800 ->  0.614;   4 steps; 27837 fillings; Pc = 7.672e+003; krw = 2.217e-005; kro = 5.479e-005
+
+====================================================
+Warning: For some rel perm calculations there were
+more than 10% difference between flowrates computed
+at the inlet and outlet. Perhaps try to reduce
+solver tolerance
+Max water flowrate error:    0.595
+Max oil flowrate error:      0.119
+Max resistivity index error: 0.000
+====================================================
+
+
+=====================  Drainage  =====================
+Total elapsed time for drainage:         23.374
+Solving for water relative permeability: 0.080
+Solving for oil relative permeability:   0.023
+Solving for resistivity index:           0.000
+Identifying trapped elements:            20.899
+Coalesceing trapped oil:                 0.008
+Max water flowrate error:                59.459 %
+Max oil flowrate error:                  11.944 %
+Max resistivity index error:             0.000 %
+
+===================  Network State  ===================
+Maximum capillary pressure reached (Pa): 7672.025
+Water saturation:                        0.614
+Number of elements invaded:              62943
+Remaining uninvaded elements:            109782
+Number of trapped water regions:         45120
+Total number of trapped water elements:  219630
+Number of trapped oil regions:           0
+Total number of trapped oil elements:    0
+
+
+Sw =  0.614 ->  0.614;   1 steps;   271 fillings; Pc = 3.354e+003; krw = 1.361e-005; kro = 4.529e-005
+
+=====================  Imbibition  =====================
+Total elapsed time for imbibition:       0.127
+Solving for water relative permeability: 0.003
+Solving for oil relative permeability:   0.012
+Solving for resistivity Index:           0.000
+Identifying trapped elements:            0.019
+Coalesceing trapped water:               0.043
+Max water flowrate error:                8.287 %
+Max oil flowrate error:                  1.768 %
+Max resistivity index error:             0.000 %
+
+=====================  Network State  =====================
+Minimum capillary pressure reached (Pa): 3353.678
+Water saturation:                        0.614
+Number of elements invaded:              271
+Number of trapped water regions:         43905
+Total number of trapped water elements:  178633
+Number of trapped oil regions:           286
+Total number of trapped oil elements:    62672
+
+==================  Pore Filling Process  =================
+Uninvaded:                               42713
+Snap off:                                0
+Piston type displacement:                147
+Pore body filling, I2:                   15
+Pore body filling, I3:                   0
+Pore body filling, I4+:                  0
+
+=================  Throat Filling Process  =================
+Uninvaded:                               129741
+Snap off:                                0
+Piston type displacement:                109
+
+

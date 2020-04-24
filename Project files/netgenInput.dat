@@ -1,5 +1,5 @@
 distrib % Base file 
-35 35 35
+60 60 60
 0.1 10 0.2 6 % Min throat radius, max throat radius, delta exp, eta exp 
 100 100 0.3 2.0 % Min throat length, max throat length, delta exp, eta exp 
 0 0 0.2 3.0 % Min aspect ratio, max aspect ratio, delta exp, eta exp 
