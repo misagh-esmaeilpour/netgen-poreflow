@@ -16,75 +16,86 @@ Number of connections to inlet:            400
 Number of connections to outlet:           400
 Number of physically isolated elements:    0
 Number of singlets removed:                0
-Number of triangular shaped elements:      2
+Number of triangular shaped elements:      5
 Number of square shaped elements:          0
-Number of circular shaped elements:        32400
-Median throat length to radius ratio:      16.1636
-Net porosity:                              0.0329894
+Number of circular shaped elements:        32397
+Median throat length to radius ratio:      16.1582
+Net porosity:                              0.0331337
 Clay bound porosity:                       0
-Absolute permeability (mD)                 78.9321
-Absolute permeability (m2)                 7.79e-014
-Formation factor:                          87.4659
+Absolute permeability (mD)                 80.0884
+Absolute permeability (m2)                 7.90411e-014
+Formation factor:                          86.8791
 
 
-Sw =   1.00 ->  0.800;   6 steps;  6534 fillings; Pc = 7.459e+003; krw = 3.175e-001; kro = 2.222e-002
-Sw =  0.800 ->  0.617;   3 steps;  5128 fillings; Pc = 7.674e+003; krw = 7.609e-003; kro = 3.955e-002
+Sw =   1.00 ->  0.800;   6 steps;  6233 fillings; Pc = 7.445e+003; krw = 3.411e-001; kro = 2.379e-002
+Sw =  0.800 ->  0.607;   4 steps;  5685 fillings; Pc = 7.746e+003; krw = 3.209e-003; kro = 2.776e-002
+
+====================================================
+Warning: For some rel perm calculations there were
+more than 10% difference between flowrates computed
+at the inlet and outlet. Perhaps try to reduce
+solver tolerance
+Max water flowrate error:    0.155
+Max oil flowrate error:      0.019
+Max resistivity index error: 0.000
+====================================================
+
 
 =====================  Drainage  =====================
-Total elapsed time for drainage:         1.756
-Solving for water relative permeability: 0.012
-Solving for oil relative permeability:   0.005
+Total elapsed time for drainage:         1.601
+Solving for water relative permeability: 0.011
+Solving for oil relative permeability:   0.004
 Solving for resistivity index:           0.000
-Identifying trapped elements:            1.558
+Identifying trapped elements:            1.400
 Coalesceing trapped oil:                 0.002
-Max water flowrate error:                5.458 %
-Max oil flowrate error:                  4.212 %
+Max water flowrate error:                15.456 %
+Max oil flowrate error:                  1.913 %
 Max resistivity index error:             0.000 %
 
 ===================  Network State  ===================
-Maximum capillary pressure reached (Pa): 7674.016
-Water saturation:                        0.617
-Number of elements invaded:              11662
-Remaining uninvaded elements:            20738
-Number of trapped water regions:         8463
-Total number of trapped water elements:  41488
+Maximum capillary pressure reached (Pa): 7746.012
+Water saturation:                        0.607
+Number of elements invaded:              11918
+Remaining uninvaded elements:            20482
+Number of trapped water regions:         8804
+Total number of trapped water elements:  40976
 Number of trapped oil regions:           0
 Total number of trapped oil elements:    0
 
 
-Sw =  0.617 ->  0.617;   1 steps;    88 fillings; Pc = 3.212e+003; krw = 5.081e-003; kro = 3.888e-002
+Sw =  0.607 ->  0.607;   1 steps;    93 fillings; Pc = 3.539e+003; krw = 2.928e-003; kro = 2.724e-002
 
 =====================  Imbibition  =====================
-Total elapsed time for imbibition:       0.030
-Solving for water relative permeability: 0.002
-Solving for oil relative permeability:   0.003
+Total elapsed time for imbibition:       0.024
+Solving for water relative permeability: 0.001
+Solving for oil relative permeability:   0.002
 Solving for resistivity Index:           0.000
-Identifying trapped elements:            0.005
-Coalesceing trapped water:               0.006
-Max water flowrate error:                1.782 %
-Max oil flowrate error:                  0.148 %
+Identifying trapped elements:            0.004
+Coalesceing trapped water:               0.007
+Max water flowrate error:                0.890 %
+Max oil flowrate error:                  0.153 %
 Max resistivity index error:             0.000 %
 
 =====================  Network State  =====================
-Minimum capillary pressure reached (Pa): 3211.554
-Water saturation:                        0.617
-Number of elements invaded:              88
-Number of trapped water regions:         8036
-Total number of trapped water elements:  32360
-Number of trapped oil regions:           99
-Total number of trapped oil elements:    11574
+Minimum capillary pressure reached (Pa): 3539.084
+Water saturation:                        0.607
+Number of elements invaded:              93
+Number of trapped water regions:         8355
+Total number of trapped water elements:  34442
+Number of trapped oil regions:           100
+Total number of trapped oil elements:    11825
 
 ==================  Pore Filling Process  =================
 Uninvaded:                               7928
 Snap off:                                0
-Piston type displacement:                61
-Pore body filling, I2:                   11
+Piston type displacement:                65
+Pore body filling, I2:                   7
 Pore body filling, I3:                   0
 Pore body filling, I4+:                  0
 
 =================  Throat Filling Process  =================
-Uninvaded:                               24384
+Uninvaded:                               24379
 Snap off:                                0
-Piston type displacement:                16
+Piston type displacement:                21
 
 
