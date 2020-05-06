@@ -8,7 +8,7 @@
 ---
 **Background:**
 
-Per H. Valvatne (2004) developed a package for generating pore-networks and simulating fluid flow (multi/single phase) through the generated networks to come up with the petrophysical values of the desired porenetworks such as permeability, porosity,etc. The package is a compiled code written in C++, and is composed of two sub-modules called Netgen (pore-network generator) and Poreflow (fluid flow simulator). 
+Per H. Valvatne (2004) developed a package for generating pore-networks and simulating fluid flow (multi/single phase) through the generated networks to come up with the petrophysical values of the desired porenetworks such as permeability, porosity,etc. The package is a compiled code written in C++, and is composed of two sub-modules called Netgen (porenetwork generator) and Poreflow (fluid flow simulator). 
 
 ---
 **Objectives:**
